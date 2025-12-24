@@ -1,0 +1,65 @@
+[project]
+name = "ufo-analisis"
+version = "0.1.0"
+description = "🛸 Analisis Penampakan UFO untuk Strategi Konten/Film menggunakan Machine Learning"
+authors = [
+    {name = "yusuf n", email = "yusufnurm@gmail.com"},
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+keywords = ["ufo", "streamlit", "machine-learning", "neural-network", "tabnet", "xgboost"]
+
+dependencies = [
+    # Data Processing
+    "pandas>=2.3.3",
+    "numpy>=2.4.0",
+    "scikit-learn>=1.8.0",
+    
+    # Web Framework
+    "streamlit>=1.52.2",
+    
+    # Visualization
+    "plotly>=6.5.0",
+    "matplotlib>=3.10.8",
+    "seaborn>=0.13.2",
+    "Pillow>=12.0.0",
+    
+    # Deep Learning (MLP)
+    "tensorflow>=2.20.0",
+    
+    # Tabular Learning (TabNet)
+    "torch>=2.7.1",
+    "pytorch-tabnet>=4.1.0",
+    
+    # Gradient Boosting (XGBoost)
+    "xgboost>=3.1.2",
+    
+    # Model Serialization
+    "joblib>=1.5.3",
+    
+    # Utilities
+    "tqdm>=4.67.1",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "tensorflow-cpu>=2.20.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "pylint>=2.17.0",
+    "pytest>=7.0.0",
+]
+
+[tool.pdm]
+distribution = false
+
+[tool.black]
+line-length = 100
+target-version = ['py312']
+
+[tool.isort]
+profile = "black"
+line_length = 100
