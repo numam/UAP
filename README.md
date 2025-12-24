@@ -1,6 +1,5 @@
 # Analisis Penampakan UFO untuk Strategi Konten/Film
 
-![Ikon UFO](https://img.icons8.com/color/96/000000/ufo.png)
 
 Aplikasi web berbasis Streamlit untuk menganalisis data penampakan UFO guna memberikan rekomendasi strategi konten atau film. Aplikasi ini memungkinkan pengguna untuk menanyakan bentuk UFO yang paling cocok berdasarkan lokasi, melakukan analisis mendalam berdasarkan lokasi, melatih model machine learning, serta mengevaluasi performa model. Tema utama adalah membantu pembuat konten dan sineas dalam menciptakan cerita yang autentik berdasarkan data penampakan UFO nyata.
 
@@ -94,8 +93,8 @@ Matriks kebingungan (divisualisasikan di app) menunjukkan "light" dan "triangle"
 ### Langkah-langkah
 1. **Klon Repository**:
    ```
-   git clone <url-repo-anda>
-   cd ufo-sightings-analysis
+   git clone [<url-repo-anda>](https://github.com/numam/UAP.git)
+   cd UAP
    ```
 
 2. **Unduh Dataset**:
